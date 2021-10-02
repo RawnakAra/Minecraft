@@ -10,31 +10,40 @@ body{
     width: 100%; 
     height: 100%;
 }
-.button{
-     width: 100%; 
-    height: 100%; 
+.button , .button1{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
 }
 .start{
-    padding: 5px 10px;
+    margin-top: 20%;
+    padding: 5px 10px; 
     font-size: 20px;
     background-color: black;
     color: white;
+    width: 20%;
+    height: 50%;
+    
 }
-/* .big{
-    padding: 5px 10px;
+ .big{
+     margin-top: 20px;
+    padding: 5px 20px; 
     font-size: 20px;
     background-color: #ffff00;
     color: white; 
 }
 .small{
-    padding: 5px 10px;
+    margin-top: 20px;
+    padding: 5px 10px; 
     font-size: 20px;
     background-color: green;
     color: white;
-} */
+    margin-left: 3px;
+} 
+.start:hover ,.big:hover ,.small:hover{
+    box-shadow: inset 0 0 0 1px gray;
+}
 .Secondpage{
    width: 100%;
    height: 100%; 
@@ -87,7 +96,7 @@ body{
 }
 .size{
     padding: 10px 15px;
-    margin: 20px;
+    margin: 8px;
     font-size: 20px;
     font-weight: 400;
     color: #ffa500;
@@ -151,4 +160,5 @@ div[data-element-type="5"] {
 div[data-element-type="6"] {
     background-color: url(/img/cloud.png) ;
 }
+
 

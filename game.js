@@ -12,7 +12,10 @@ const start = document.querySelector('.start'),
      tree = document.querySelector('.tree'),
      cloud = document.querySelector('.cloud'),
      mainbage = document.querySelector('.main_bage'),
-     restart = document.querySelector('.restart');
+     restart = document.querySelector('.restart'),
+     small = document.querySelector('.small'),
+     big = document.querySelector('.big');
+
 
 let tools, bank;
 
@@ -185,3 +188,4 @@ restart.addEventListener('click', () => {
      mincraft.innerHTML=""
      setMyWorld(mineWorld)
 })
+
